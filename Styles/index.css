@@ -1,0 +1,101 @@
+html {}
+body {
+	margin: 0;
+	background: url(../Images/Wood-Wallpaper-Background-3.jpg);
+	background-size: 100%;
+}
+
+.card {
+	width: 90vw;
+	min-height: 90vh;
+	padding-bottom: 10%;
+	background: #fff;
+	margin: auto;
+	transition: 0.5s;
+	/*box-shadow: 0px 0px 10px 10px #aaa;*/
+	/*border: 2px solid #000;*/
+}
+.card .cover {
+	width: 100%;
+	height: 25%;
+	background: #616263;
+	background-image: url(../Images/generic-coding.jpg);
+	background-size: 100% 100%;
+	box-shadow: 0px 0px 20px #aaa;
+}
+#cover:hover #pp {
+	opacity: 0;
+}
+#pp:hover {
+	opacity: 1 !important;
+	width: 200px;
+	height: 200px;
+}
+.card .cover .profile-pic {
+	width: 150px;
+	height: 150px;
+	border-radius: 1000vw;
+	background: #fff;
+	box-shadow: 0px 0px 10px 10px #aaa;
+	background-image: url(../Images/dp.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%) translateY(30%);
+	transition: 0.5s;
+}
+.card .bio {
+	text-align: center;
+	width: 40%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #777;
+	margin-bottom: 3%;
+}
+.card .tbtns {
+	display: flex;
+	justify-content: center;
+}
+.card .tbtns button {
+	padding: 2%;
+	border: none;
+	background: linear-gradient(#d3bef9, #673AB7);
+	outline: none;
+	font-size: 1em;
+	color: #fff;
+	min-width: 15%;
+}
+.card .tbtns button.fb {
+	border-radius: 1000vh 0 0 1000vh;
+	border-right: 1px solid;
+	margin-right: 1%;
+}
+.card .tbtns button.yt {
+	border-radius: 0 1000vh 1000vh 0;
+	border-left: 1px solid;
+	margin-left: 1%;
+}
+.card .tbtns button:hover {
+	box-shadow: 0 0 5px #000;
+}
+
+.card .tbtns button:active {
+	background: linear-gradient(#673AB7,#d3bef9);
+}
+.card .map {
+	width: 70%;
+	height: 250px;
+	max-width:100%;
+	margin: auto;
+}
+.card .map > div {
+	height:100%;
+	width:100%;
+	max-width:100%;
+}
+.card .map > div > iframe {
+	height:100%;
+	width:100%;
+	border:0;
+}
